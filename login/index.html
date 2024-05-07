@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siber-Login</title>
+    <link rel="icon" href="images/avatar.png" type="image/logo-icon"> <!-- fav icon  -->
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="bg-video">
+            <video autoplay muted loop id="myVideo">
+                <source src="video/siber.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <form action="login">
+            <h1>Login</h1>
+            <img id="avatar" src="images/avatar.png" alt="">
+            <div class="user-login">
+
+                <label for="Username">Username</label>
+                <input type="text" id="Username" name="Username" placeholder="Username">
+            </div>
+            <div class=" user-password">
+                <label for="password">Password</label>
+                <input type="pasword" id="password" name="password" placeholder="Password">
+                <div class="checked">
+                    <input type="checkbox" id="remember" name="remember">
+                    <label for="remember">Remember me</label>
+                </div>
+                <div class="btn">
+                    <button type="button" id="buttonLogin" name="buttonLogin">Login</button>
+                    <button type="button" id="buttonRegister" name="buttonRegister">Register</button>
+                </div>
+
+        </form>
+    </div>
+</body>
+
+</html>
